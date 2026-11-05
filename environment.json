@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "machine": "arm64",
+  "sqlite": "3.53.1",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "matplotlib": "3.11.2"
+}

@@ -1,0 +1,13 @@
+test_ai_expected_scope_and_personal_review (__main__.AssignmentChecks.test_ai_expected_scope_and_personal_review) ... ok
+test_chatbot_no_data_and_invalid_dates (__main__.AssignmentChecks.test_chatbot_no_data_and_invalid_dates) ... ok
+test_cleaned_fixture_and_scaling (__main__.AssignmentChecks.test_cleaned_fixture_and_scaling) ... ok
+test_corrupt_files_fail_explicitly (__main__.AssignmentChecks.test_corrupt_files_fail_explicitly) ... ok
+test_database_constraints_and_independent_averages (__main__.AssignmentChecks.test_database_constraints_and_independent_averages) ... ok
+test_invalid_row_does_not_reserve_key (__main__.AssignmentChecks.test_invalid_row_does_not_reserve_key) ... ok
+test_original_exercises (__main__.AssignmentChecks.test_original_exercises) ... ok
+test_saved_benchmark_evidence (__main__.AssignmentChecks.test_saved_benchmark_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.065s
+
+OK
