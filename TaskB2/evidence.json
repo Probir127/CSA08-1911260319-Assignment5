@@ -1,0 +1,117 @@
+{
+  "files": [
+    {
+      "file": "empty.csv",
+      "outcome": "SourceError",
+      "message": "expected exact comma-separated header: station,date,hour,pm25,pm10,no,temperature,temp_unit"
+    },
+    {
+      "file": "latin1.csv",
+      "outcome": "SourceError",
+      "message": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe1 in position 56: invalid continuation byte"
+    },
+    {
+      "file": "missing_column.csv",
+      "outcome": "SourceError",
+      "message": "expected exact comma-separated header: station,date,hour,pm25,pm10,no,temperature,temp_unit"
+    },
+    {
+      "file": "unclosed_quote.csv",
+      "outcome": "SourceError",
+      "message": "Error: unexpected end of data"
+    },
+    {
+      "file": "wrong_delimiter.csv",
+      "outcome": "SourceError",
+      "message": "expected exact comma-separated header: station,date,hour,pm25,pm10,no,temperature,temp_unit"
+    }
+  ],
+  "sql": [
+    {
+      "input": "King's Park",
+      "unsafe_query": "SELECT AVG(pm25) FROM aq WHERE station='King's Park'",
+      "unsafe_result": "OperationalError: near \"s\": syntax error",
+      "parameterized_result": 40.0
+    },
+    {
+      "input": "Adyar' OR '1'='1",
+      "unsafe_query": "SELECT AVG(pm25) FROM aq WHERE station='Adyar' OR '1'='1'",
+      "unsafe_result": 61.0,
+      "parameterized_result": null
+    }
+  ],
+  "insert_100000_rows_one_transaction": {
+    "execute_loop": {
+      "runs_seconds": [
+        0.03357687500101747,
+        0.03387862499948824,
+        0.033296250003331807,
+        0.032986917001835536,
+        0.033409499999834225
+      ],
+      "median_seconds": 0.033409499999834225
+    },
+    "executemany": {
+      "runs_seconds": [
+        0.018460125000274274,
+        0.018730916002823506,
+        0.018509374996938277,
+        0.018554750000475906,
+        0.01856279200001154
+      ],
+      "median_seconds": 0.018554750000475906
+    }
+  },
+  "sentiment": [
+    {
+      "text": "Good, another smoke-filled evening.",
+      "reference": "negative",
+      "actual": "neutral",
+      "agrees": false
+    },
+    {
+      "text": "The road is not not clean.",
+      "reference": "positive",
+      "actual": "negative",
+      "agrees": false
+    },
+    {
+      "text": "Clean park, dirty road.",
+      "reference": "neutral",
+      "actual": "neutral",
+      "agrees": true
+    },
+    {
+      "text": "Helpful staff, broken sensor; overall dissatisfied.",
+      "reference": "negative",
+      "actual": "neutral",
+      "agrees": false
+    }
+  ],
+  "debug_10000_calls": {
+    "print_buffered": {
+      "runs_seconds": [
+        0.0013910839988966472,
+        0.0013528749987017363,
+        0.0013665410006069578
+      ],
+      "median_seconds": 0.0013665410006069578
+    },
+    "logging_disabled": {
+      "runs_seconds": [
+        0.0005542090002563782,
+        0.0005455840000649914,
+        0.0005439590022433549
+      ],
+      "median_seconds": 0.0005455840000649914
+    },
+    "logging_enabled": {
+      "runs_seconds": [
+        0.02225995800108649,
+        0.021890082993195392,
+        0.0219193750017439
+      ],
+      "median_seconds": 0.0219193750017439
+    }
+  }
+}
