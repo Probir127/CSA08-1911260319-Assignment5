@@ -1,0 +1,35 @@
+[
+  {
+    "question": "What is the PM2.5 in Adyar today?",
+    "answer": "Adyar on 2026-10-01: mean PM2.5 33.57 micrograms/m3 from 24 valid readings."
+  },
+  {
+    "question": "What is the PM2.5 in King's Park on 2026-10-01?",
+    "answer": "King's Park on 2026-10-01: mean PM2.5 66.57 micrograms/m3 from 24 valid readings."
+  },
+  {
+    "question": "PM2.5 Adyar on 2026-11-05",
+    "answer": "No valid readings for Adyar on 2026-11-05."
+  },
+  {
+    "question": "PM2.5 Adyar and Guindy today",
+    "answer": "Please specify exactly one known station."
+  },
+  {
+    "question": "PM2.5 Unknown today",
+    "answer": "Please specify exactly one known station."
+  },
+  {
+    "question": "PM2.5 Adyar on 2026-02-30",
+    "answer": "Invalid date; use YYYY-MM-DD."
+  },
+  {
+    "question": "Hello",
+    "answer": "Ask for PM2.5, a station name, and today or a YYYY-MM-DD date."
+  },
+  {
+    "question": "PM2.5 Adyar",
+    "answer": "Please specify today or a YYYY-MM-DD date."
+  }
+]
+Eight chatbot cases and extractive-summary check: PASS

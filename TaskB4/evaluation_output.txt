@@ -1,0 +1,59 @@
+{
+  "complaints": 50,
+  "label_agreement": 31,
+  "frequency_salience_matches": 11,
+  "first_sentence_salience_matches": 7,
+  "reference_note": "Illustrative reference labels; not independently validated ground truth.",
+  "timings": {
+    "sentiment": {
+      "runs_seconds": [
+        0.0001760829982231371,
+        0.00016529200365766883,
+        0.00016108399722725153,
+        0.0001592920016264543,
+        0.00015999999595806003
+      ],
+      "median_seconds_for_50": 0.00016108399722725153
+    },
+    "frequency_summary": {
+      "runs_seconds": [
+        0.00029020899819443,
+        0.0002818749999278225,
+        0.0002810420046444051,
+        0.00026862500089919195,
+        0.00027024999872082844
+      ],
+      "median_seconds_for_50": 0.0002810420046444051
+    },
+    "first_sentence": {
+      "runs_seconds": [
+        4.4832995627075434e-05,
+        4.570799501379952e-05,
+        4.733300011139363e-05,
+        4.429199907463044e-05,
+        4.3542000639718026e-05
+      ],
+      "median_seconds_for_50": 4.4832995627075434e-05
+    }
+  }
+}
+Known failures:
+29: reference=negative, predicted=positive | Such helpful staff, they ignored every call. Calls have gone unanswered for weeks. Excellent work indeed.
+30: reference=negative, predicted=positive | The response was fast, only six months late. The response arrived after we moved. Amazing service.
+31: reference=positive, predicted=negative | The lane is not not clean. The lane is actually spotless. I want to clarify my earlier report.
+32: reference=negative, predicted=positive | The sensor is not not broken. The sensor really does require repair. Please send a technician.
+33: reference=positive, predicted=negative | I cannot say the service is not good. The service met our expectations. Thank you.
+34: reference=positive, predicted=negative | There is no reason to call this not helpful. The support solved our problem. Thank you.
+35: reference=negative, predicted=positive | It is not true that the air is good. The air irritates everyone outside. Please investigate.
+36: reference=negative, predicted=positive | The bus is clean but the response is slow. Clean seats cannot excuse delayed repairs. Overall I am dissatisfied.
+37: reference=positive, predicted=neutral | The officer was rude but the repairs improved the area. Repairs solved the main issue. Overall I am satisfied.
+39: reference=negative, predicted=neutral | The staff are helpful but the equipment is broken. Equipment failure prevents all monitoring. Overall I am dissatisfied.
+40: reference=positive, predicted=neutral | The old service was bad but the current service is good. The new service solved everything. Overall I am satisfied.
+41: reference=positive, predicted=neutral | The air is excellent. Excellent air makes outdoor play pleasant. Thank you.
+42: reference=negative, predicted=neutral | The lane is filthy. Filthy waste attracts flies. Please clear it.
+43: reference=positive, predicted=neutral | The officer was kind. Kind attention resolved my concern. Thank you.
+44: reference=negative, predicted=neutral | The bus was delayed. The delayed bus made us miss school. Please improve the timetable.
+45: reference=negative, predicted=neutral | The situation is terrible. Terrible odour affects every home. Please investigate.
+46: reference=negative, predicted=positive | The air is not very good. The air causes discomfort outside. Please monitor it.
+47: reference=negative, predicted=positive | The road is never really clean. The road has waste every morning. Please schedule collection.
+49: reference=positive, predicted=negative | The broken sensor is now repaired. The sensor operates perfectly again. Overall I am satisfied.

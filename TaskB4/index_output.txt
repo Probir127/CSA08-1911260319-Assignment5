@@ -1,0 +1,5 @@
+Baseline slowest query: worst_hours
+station_month: 0.019931s -> 0.000028s; ratio 703.41x
+station_comparison: 0.031897s -> 0.028803s; ratio 1.11x
+worst_hours: 0.032003s -> 0.032406s; ratio 0.99x
+Index construction: 0.196199s
