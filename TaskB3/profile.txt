@@ -1,0 +1,68 @@
+         13601833 function calls in 1.998 seconds
+
+   Ordered by: cumulative time
+   List reduced from 63 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.267    0.267    1.998    1.998 benchmarks.py:49(mean_lists)
+  1051201    0.498    0.000    0.849    0.000 csv.py:112(__next__)
+    43800    0.017    0.000    0.837    0.000 statistics.py:468(mean)
+    43800    0.183    0.000    0.723    0.000 statistics.py:154(_sum)
+    43800    0.034    0.000    0.308    0.000 {built-in method builtins.sum}
+  1051202    0.196    0.000    0.197    0.000 {built-in method builtins.next}
+  1051200    0.081    0.000    0.175    0.000 statistics.py:287(_exact_ratio)
+   176936    0.041    0.000    0.170    0.000 fractions.py:613(forward)
+   220736    0.031    0.000    0.113    0.000 statistics.py:203(<genexpr>)
+   264536    0.080    0.000    0.103    0.000 fractions.py:186(__new__)
+  1051200    0.094    0.000    0.094    0.000 {method 'as_integer_ratio' of 'float' objects}
+   176936    0.050    0.000    0.094    0.000 fractions.py:710(_add)
+  2102401    0.091    0.000    0.091    0.000 csv.py:98(fieldnames)
+  2102402    0.063    0.000    0.063    0.000 {built-in method builtins.len}
+    43800    0.015    0.000    0.059    0.000 fractions.py:627(reverse)
+  1051200    0.045    0.000    0.045    0.000 {method 'append' of 'list' objects}
+  1051200    0.042    0.000    0.042    0.000 {method 'get' of 'dict' objects}
+   220736    0.031    0.000    0.042    0.000 fractions.py:317(_from_coprime_ints)
+   264538    0.018    0.000    0.032    0.000 {built-in method builtins.isinstance}
+    43800    0.010    0.000    0.028    0.000 statistics.py:333(_convert)
+    43800    0.014    0.000    0.026    0.000 fractions.py:758(_div)
+   485272    0.025    0.000    0.025    0.000 {built-in method math.gcd}
+   485272    0.023    0.000    0.023    0.000 {built-in method __new__ of type object at 0x101a1e258}
+    43800    0.012    0.000    0.016    0.000 numbers.py:308(__float__)
+    87600    0.008    0.000    0.014    0.000 <frozen abc>:117(__instancecheck__)
+    43800    0.007    0.000    0.010    0.000 {built-in method _functools.reduce}
+    87600    0.006    0.000    0.006    0.000 {built-in method _abc._abc_instancecheck}
+    43801    0.003    0.000    0.003    0.000 {method 'items' of 'dict' objects}
+    43800    0.003    0.000    0.003    0.000 statistics.py:256(_coerce)
+    43800    0.002    0.000    0.002    0.000 {method 'add' of 'set' objects}
+
+
+
+SORTED BY INTERNAL TIME
+         13601833 function calls in 1.998 seconds
+
+   Ordered by: internal time
+   List reduced from 63 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  1051201    0.498    0.000    0.849    0.000 csv.py:112(__next__)
+        1    0.267    0.267    1.998    1.998 benchmarks.py:49(mean_lists)
+  1051202    0.196    0.000    0.197    0.000 {built-in method builtins.next}
+    43800    0.183    0.000    0.723    0.000 statistics.py:154(_sum)
+  1051200    0.094    0.000    0.094    0.000 {method 'as_integer_ratio' of 'float' objects}
+  2102401    0.091    0.000    0.091    0.000 csv.py:98(fieldnames)
+  1051200    0.081    0.000    0.175    0.000 statistics.py:287(_exact_ratio)
+   264536    0.080    0.000    0.103    0.000 fractions.py:186(__new__)
+  2102402    0.063    0.000    0.063    0.000 {built-in method builtins.len}
+   176936    0.050    0.000    0.094    0.000 fractions.py:710(_add)
+  1051200    0.045    0.000    0.045    0.000 {method 'append' of 'list' objects}
+  1051200    0.042    0.000    0.042    0.000 {method 'get' of 'dict' objects}
+   176936    0.041    0.000    0.170    0.000 fractions.py:613(forward)
+    43800    0.034    0.000    0.308    0.000 {built-in method builtins.sum}
+   220736    0.031    0.000    0.042    0.000 fractions.py:317(_from_coprime_ints)
+   220736    0.031    0.000    0.113    0.000 statistics.py:203(<genexpr>)
+   485272    0.025    0.000    0.025    0.000 {built-in method math.gcd}
+   485272    0.023    0.000    0.023    0.000 {built-in method __new__ of type object at 0x101a1e258}
+   264538    0.018    0.000    0.032    0.000 {built-in method builtins.isinstance}
+    43800    0.017    0.000    0.837    0.000 statistics.py:468(mean)
+
+

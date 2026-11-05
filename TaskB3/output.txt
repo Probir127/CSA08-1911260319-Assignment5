@@ -1,0 +1,7 @@
+Cleaning 1000: {'clean_loops': 0.0005, 'clean_pandas': 0.0019}
+Cleaning 100000: {'clean_loops': 0.0466, 'clean_pandas': 0.0247}
+Cleaning 1000000: {'clean_loops': 0.4715, 'clean_pandas': 0.23}
+Year 1 stations: {'lists': 0.0068, 'running': 0.005, 'pandas': 0.0028, 'sql': 0.0015}
+Year 12 stations: {'lists': 0.0808, 'running': 0.0597, 'pandas': 0.0159, 'sql': 0.0203}
+Year 120 stations: {'lists': 0.8104, 'running': 0.6107, 'pandas': 0.1506, 'sql': 0.2257}
+All four methods agree with independently calculated means at all three sizes. Profile saved.
