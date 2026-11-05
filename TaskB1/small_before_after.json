@@ -1,0 +1,507 @@
+{
+  "raw_rows": [
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      48,
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "  aDyAr  ",
+      "2026-10-01",
+      1,
+      60,
+      90,
+      20,
+      31,
+      " c "
+    ],
+    [
+      "Guindy",
+      "2026-10-01",
+      0,
+      95,
+      150,
+      25,
+      86,
+      "F"
+    ],
+    [
+      "King's Park",
+      "2026-10-01",
+      0,
+      40,
+      70,
+      10,
+      29,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      "",
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      48,
+      "NA",
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      48,
+      80,
+      -1,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      1000,
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      "broken",
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      "nan",
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      "inf",
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      48,
+      80,
+      15,
+      61,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-02-30",
+      0,
+      48,
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "01/10/2026",
+      0,
+      48,
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      24,
+      48,
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      "1.5",
+      48,
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Unknown",
+      "2026-10-01",
+      0,
+      48,
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      48,
+      80,
+      15,
+      30,
+      "F"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      48,
+      80,
+      15,
+      30,
+      "C"
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      48,
+      80,
+      15,
+      30
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      48,
+      80,
+      15,
+      30,
+      "C",
+      "extra"
+    ]
+  ],
+  "clean_rows": [
+    [
+      "Adyar",
+      "2026-10-01",
+      0,
+      48.0,
+      80.0,
+      15.0,
+      30.0
+    ],
+    [
+      "Adyar",
+      "2026-10-01",
+      1,
+      60.0,
+      90.0,
+      20.0,
+      31.0
+    ],
+    [
+      "Guindy",
+      "2026-10-01",
+      0,
+      95.0,
+      150.0,
+      25.0,
+      30.0
+    ],
+    [
+      "King's Park",
+      "2026-10-01",
+      0,
+      40.0,
+      70.0,
+      10.0,
+      29.0
+    ]
+  ],
+  "issues": [
+    {
+      "line": 6,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 7,
+      "reason": "missing pm10",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "48",
+        "pm10": "NA",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 8,
+      "reason": "no outside 0..999",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "48",
+        "pm10": "80",
+        "no": "-1",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 9,
+      "reason": "pm25 outside 0..999",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "1000",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 10,
+      "reason": "could not convert string to float: 'broken'",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "broken",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 11,
+      "reason": "non-finite pm25",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "nan",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 12,
+      "reason": "non-finite pm25",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "inf",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 13,
+      "reason": "temperature outside -50..60 C",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "48",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "61",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 14,
+      "reason": "day is out of range for month",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-02-30",
+        "hour": "0",
+        "pm25": "48",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 15,
+      "reason": "Invalid isoformat string: '01/10/2026'",
+      "raw": {
+        "station": "Adyar",
+        "date": "01/10/2026",
+        "hour": "0",
+        "pm25": "48",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 16,
+      "reason": "hour outside 0..23",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "24",
+        "pm25": "48",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 17,
+      "reason": "hour must be an integer",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "1.5",
+        "pm25": "48",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 18,
+      "reason": "unknown or empty station",
+      "raw": {
+        "station": "Unknown",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "48",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 19,
+      "reason": "temperature unit disagrees with station metadata",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "48",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "F"
+      }
+    },
+    {
+      "line": 20,
+      "reason": "duplicate station/day/hour; first valid row retained",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "48",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 21,
+      "reason": "wrong number of columns",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "48",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": null
+      }
+    },
+    {
+      "line": 22,
+      "reason": "wrong number of columns",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-01",
+        "hour": "0",
+        "pm25": "48",
+        "pm10": "80",
+        "no": "15",
+        "temperature": "30",
+        "temp_unit": "C",
+        "null": [
+          "extra"
+        ]
+      }
+    }
+  ],
+  "pm25_minmax": [
+    0.14545454545454545,
+    0.36363636363636365,
+    1.0,
+    0.0
+  ],
+  "pm25_zscore": [
+    -0.6066701549847334,
+    -0.03568647970498432,
+    1.629682573194284,
+    -0.9873259385045662
+  ]
+}

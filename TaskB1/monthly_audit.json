@@ -1,0 +1,679 @@
+{
+  "input_rows": 8928,
+  "accepted": 8880,
+  "rejected": 48,
+  "issues": [
+    {
+      "line": 151,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-07",
+        "hour": "5",
+        "pm25": "NA",
+        "pm10": "48.8",
+        "no": "11.0",
+        "temperature": "24.06",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 324,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-14",
+        "hour": "10",
+        "pm25": "NA",
+        "pm10": "58.14",
+        "no": "12.0",
+        "temperature": "30.03",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 497,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-21",
+        "hour": "15",
+        "pm25": "NA",
+        "pm10": "64.57",
+        "no": "13.0",
+        "temperature": "29.59",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 670,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Adyar",
+        "date": "2026-10-28",
+        "hour": "20",
+        "pm25": "NA",
+        "pm10": "95.52",
+        "no": "14.0",
+        "temperature": "23.9",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 894,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Guindy",
+        "date": "2026-10-07",
+        "hour": "4",
+        "pm25": "NA",
+        "pm10": "53.3",
+        "no": "11.8",
+        "temperature": "73.13",
+        "temp_unit": "F"
+      }
+    },
+    {
+      "line": 1067,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Guindy",
+        "date": "2026-10-14",
+        "hour": "9",
+        "pm25": "NA",
+        "pm10": "89.64",
+        "no": "12.8",
+        "temperature": "84.63",
+        "temp_unit": "F"
+      }
+    },
+    {
+      "line": 1240,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Guindy",
+        "date": "2026-10-21",
+        "hour": "14",
+        "pm25": "NA",
+        "pm10": "69.07",
+        "no": "13.8",
+        "temperature": "86.68",
+        "temp_unit": "F"
+      }
+    },
+    {
+      "line": 1413,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Guindy",
+        "date": "2026-10-28",
+        "hour": "19",
+        "pm25": "NA",
+        "pm10": "100.02",
+        "no": "14.8",
+        "temperature": "77.2",
+        "temp_unit": "F"
+      }
+    },
+    {
+      "line": 1637,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Velachery",
+        "date": "2026-10-07",
+        "hour": "3",
+        "pm25": "NA",
+        "pm10": "57.8",
+        "no": "12.6",
+        "temperature": "21.81",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 1810,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Velachery",
+        "date": "2026-10-14",
+        "hour": "8",
+        "pm25": "NA",
+        "pm10": "94.14",
+        "no": "13.6",
+        "temperature": "28.2",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 1983,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Velachery",
+        "date": "2026-10-21",
+        "hour": "13",
+        "pm25": "NA",
+        "pm10": "73.57",
+        "no": "14.6",
+        "temperature": "30.88",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 2156,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Velachery",
+        "date": "2026-10-28",
+        "hour": "18",
+        "pm25": "NA",
+        "pm10": "104.52",
+        "no": "15.6",
+        "temperature": "26.4",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 2380,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "T Nagar",
+        "date": "2026-10-07",
+        "hour": "2",
+        "pm25": "NA",
+        "pm10": "62.3",
+        "no": "13.4",
+        "temperature": "21.02",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 2553,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "T Nagar",
+        "date": "2026-10-14",
+        "hour": "7",
+        "pm25": "NA",
+        "pm10": "98.64",
+        "no": "14.4",
+        "temperature": "26.99",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 2726,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "T Nagar",
+        "date": "2026-10-21",
+        "hour": "12",
+        "pm25": "NA",
+        "pm10": "78.07",
+        "no": "15.4",
+        "temperature": "31.05",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 2899,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "T Nagar",
+        "date": "2026-10-28",
+        "hour": "17",
+        "pm25": "NA",
+        "pm10": "82.02",
+        "no": "16.4",
+        "temperature": "27.69",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 3123,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Anna Nagar",
+        "date": "2026-10-07",
+        "hour": "1",
+        "pm25": "NA",
+        "pm10": "66.8",
+        "no": "14.2",
+        "temperature": "20.52",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 3296,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Anna Nagar",
+        "date": "2026-10-14",
+        "hour": "6",
+        "pm25": "NA",
+        "pm10": "76.14",
+        "no": "15.2",
+        "temperature": "25.7",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 3469,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Anna Nagar",
+        "date": "2026-10-21",
+        "hour": "11",
+        "pm25": "NA",
+        "pm10": "82.57",
+        "no": "16.2",
+        "temperature": "30.88",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 3642,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Anna Nagar",
+        "date": "2026-10-28",
+        "hour": "16",
+        "pm25": "NA",
+        "pm10": "86.52",
+        "no": "17.2",
+        "temperature": "28.9",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 3866,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Ambattur",
+        "date": "2026-10-07",
+        "hour": "0",
+        "pm25": "NA",
+        "pm10": "71.3",
+        "no": "15.0",
+        "temperature": "68.63",
+        "temp_unit": "F"
+      }
+    },
+    {
+      "line": 4039,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Ambattur",
+        "date": "2026-10-14",
+        "hour": "5",
+        "pm25": "NA",
+        "pm10": "80.64",
+        "no": "16.0",
+        "temperature": "75.94",
+        "temp_unit": "F"
+      }
+    },
+    {
+      "line": 4212,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Ambattur",
+        "date": "2026-10-21",
+        "hour": "10",
+        "pm25": "NA",
+        "pm10": "87.07",
+        "no": "17.0",
+        "temperature": "86.68",
+        "temp_unit": "F"
+      }
+    },
+    {
+      "line": 4385,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Ambattur",
+        "date": "2026-10-28",
+        "hour": "15",
+        "pm25": "NA",
+        "pm10": "91.02",
+        "no": "18.0",
+        "temperature": "85.89",
+        "temp_unit": "F"
+      }
+    },
+    {
+      "line": 4609,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Perambur",
+        "date": "2026-10-06",
+        "hour": "23",
+        "pm25": "NA",
+        "pm10": "69.12",
+        "no": "20.6",
+        "temperature": "20.47",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 4782,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Perambur",
+        "date": "2026-10-14",
+        "hour": "4",
+        "pm25": "NA",
+        "pm10": "85.14",
+        "no": "16.8",
+        "temperature": "23.2",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 4955,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Perambur",
+        "date": "2026-10-21",
+        "hour": "9",
+        "pm25": "NA",
+        "pm10": "118.57",
+        "no": "17.8",
+        "temperature": "29.59",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 5128,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Perambur",
+        "date": "2026-10-28",
+        "hour": "14",
+        "pm25": "NA",
+        "pm10": "95.52",
+        "no": "18.8",
+        "temperature": "30.73",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 5352,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Royapuram",
+        "date": "2026-10-06",
+        "hour": "22",
+        "pm25": "NA",
+        "pm10": "73.62",
+        "no": "21.4",
+        "temperature": "20.97",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 5525,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Royapuram",
+        "date": "2026-10-14",
+        "hour": "3",
+        "pm25": "NA",
+        "pm10": "89.64",
+        "no": "17.6",
+        "temperature": "22.16",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 5698,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Royapuram",
+        "date": "2026-10-21",
+        "hour": "8",
+        "pm25": "NA",
+        "pm10": "123.07",
+        "no": "18.6",
+        "temperature": "28.55",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 5871,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Royapuram",
+        "date": "2026-10-28",
+        "hour": "13",
+        "pm25": "NA",
+        "pm10": "100.02",
+        "no": "19.6",
+        "temperature": "31.23",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 6095,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Mylapore",
+        "date": "2026-10-06",
+        "hour": "21",
+        "pm25": "NA",
+        "pm10": "78.12",
+        "no": "22.2",
+        "temperature": "21.76",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 6268,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Mylapore",
+        "date": "2026-10-14",
+        "hour": "2",
+        "pm25": "NA",
+        "pm10": "94.14",
+        "no": "18.4",
+        "temperature": "21.37",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 6441,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Mylapore",
+        "date": "2026-10-21",
+        "hour": "7",
+        "pm25": "NA",
+        "pm10": "127.57",
+        "no": "19.4",
+        "temperature": "27.34",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 6614,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Mylapore",
+        "date": "2026-10-28",
+        "hour": "12",
+        "pm25": "NA",
+        "pm10": "104.52",
+        "no": "20.4",
+        "temperature": "31.4",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 6838,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Tambaram",
+        "date": "2026-10-06",
+        "hour": "20",
+        "pm25": "NA",
+        "pm10": "109.62",
+        "no": "23.0",
+        "temperature": "22.8",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 7011,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Tambaram",
+        "date": "2026-10-14",
+        "hour": "1",
+        "pm25": "NA",
+        "pm10": "98.64",
+        "no": "19.2",
+        "temperature": "20.87",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 7184,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Tambaram",
+        "date": "2026-10-21",
+        "hour": "6",
+        "pm25": "NA",
+        "pm10": "105.07",
+        "no": "20.2",
+        "temperature": "26.05",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 7357,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Tambaram",
+        "date": "2026-10-28",
+        "hour": "11",
+        "pm25": "NA",
+        "pm10": "109.02",
+        "no": "21.2",
+        "temperature": "31.23",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 7581,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Porur",
+        "date": "2026-10-06",
+        "hour": "19",
+        "pm25": "NA",
+        "pm10": "114.12",
+        "no": "23.8",
+        "temperature": "24.01",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 7754,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Porur",
+        "date": "2026-10-14",
+        "hour": "0",
+        "pm25": "NA",
+        "pm10": "103.14",
+        "no": "20.0",
+        "temperature": "20.7",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 7927,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Porur",
+        "date": "2026-10-21",
+        "hour": "5",
+        "pm25": "NA",
+        "pm10": "109.57",
+        "no": "21.0",
+        "temperature": "24.76",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 8100,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "Porur",
+        "date": "2026-10-28",
+        "hour": "10",
+        "pm25": "NA",
+        "pm10": "113.52",
+        "no": "22.0",
+        "temperature": "30.73",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 8324,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "King's Park",
+        "date": "2026-10-06",
+        "hour": "18",
+        "pm25": "NA",
+        "pm10": "118.62",
+        "no": "24.6",
+        "temperature": "25.3",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 8497,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "King's Park",
+        "date": "2026-10-13",
+        "hour": "23",
+        "pm25": "NA",
+        "pm10": "103.17",
+        "no": "25.6",
+        "temperature": "20.82",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 8670,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "King's Park",
+        "date": "2026-10-21",
+        "hour": "4",
+        "pm25": "NA",
+        "pm10": "114.07",
+        "no": "21.8",
+        "temperature": "23.55",
+        "temp_unit": "C"
+      }
+    },
+    {
+      "line": 8843,
+      "reason": "missing pm25",
+      "raw": {
+        "station": "King's Park",
+        "date": "2026-10-28",
+        "hour": "9",
+        "pm25": "NA",
+        "pm10": "145.02",
+        "no": "22.8",
+        "temperature": "29.94",
+        "temp_unit": "C"
+      }
+    }
+  ]
+}
